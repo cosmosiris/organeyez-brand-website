@@ -1,0 +1,135 @@
+body{
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+/*NAVBAR*/
+
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+#logo{
+  color: white;
+  font-size: 40px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  letter-spacing: 2px;
+}
+
+.nav a{
+  color: white;
+  font-size: 20px;
+} 
+
+/*ABOUT*/
+
+#about{
+  height: 400px;
+  margin: 0 auto;
+  border: 8px solid white;
+  width: 70%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: center;
+  color: white;
+}
+
+#about-header{
+  font-size: 20px;
+}
+
+#about li{
+  list-style: none;
+  font-size: 15px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 100;
+  margin-top: 10%;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  color: #ff3333;
+  font-size: 20px;
+}
+
+
+#contact-info{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#designed-by{
+  text-align: center;
+}
+
+.social-media-icons{
+  width: 500px;
+  margin-top: 2%;
+}
+
+.social-media-icons img{
+  margin-right: 5%;
+  width: 30px;
+}
+
+
+/*FOUNDER PAGE*/
+#about_founder{
+  margin: 0 auto;
+  border: 8px solid white;
+  width: 70%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: center;
+  color: white;
+}
+
+#about_founder p{
+  font-size: 20px;
+}
+
+#founder_pic{
+  width: 300px;
+}
+
+
+/*PRODUCTS*/
+#yard{
+  margin: 0 auto;
+  border: 8px solid white;
+  width: 70%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: center;
+  color: white;
+}
+
+#yard-heading {
+  font-size: 30px ;
+}
+
+#yard-description{
+  font-size: 20px;
+}
+
+.visit{
+  font-size: 20px;
+}
+
+
+
+
