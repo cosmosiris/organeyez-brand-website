@@ -25,10 +25,14 @@ body{
   font-size: 20px;
 } 
 
+.active{
+  border: 2px solid white;
+}
+
 /*ABOUT*/
 
 #about{
-  height: 400px;
+  /*height: 400px;*/
   margin: 0 auto;
   border: 8px solid white;
   width: 70%;
@@ -46,6 +50,10 @@ body{
 #about li{
   list-style: none;
   font-size: 15px;
+}
+
+#intended-users{
+  padding-right: 6%;
 }
 
 
@@ -102,7 +110,8 @@ body{
 }
 
 #founder_pic{
-  width: 300px;
+  width: 40%;
+  margin-bottom: 2%;
 }
 
 
