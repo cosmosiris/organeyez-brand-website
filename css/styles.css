@@ -97,7 +97,7 @@ body{
 #about_founder{
   margin: 0 auto;
   border: 8px solid white;
-  width: 70%;
+  width: 60%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
   padding: 4%;
@@ -106,11 +106,11 @@ body{
 }
 
 #about_founder p{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #founder_pic{
-  width: 40%;
+  width: 30%;
   margin-bottom: 2%;
 }
 
