@@ -29,9 +29,9 @@ body{
   border: 2px solid white;
 }
 
-/*ABOUT*/
+/*INDEX PAGE*/
 
-#about{
+#index{
   /*height: 400px;*/
   margin: 0 auto;
   border: 8px solid white;
@@ -43,11 +43,11 @@ body{
   color: white;
 }
 
-#about-header{
+.index-header{
   font-size: 20px;
 }
 
-#about li{
+#index li{
   list-style: none;
   font-size: 15px;
 }
