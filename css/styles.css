@@ -60,7 +60,7 @@ body{
 /*ABOUT PAGE*/
 #about{
   margin: 0 auto;
-  border: 8px solid white;
+  border: 2px solid white;
   width: 60%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
@@ -105,10 +105,10 @@ body{
 }
 
 
-/*FOUNDER PAGE*/
+/*TEAM PAGE*/
 #team-bio-box{
   margin: 0 auto;
-  border: 8px solid white;
+  border: 2px solid white;
   width: 80%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
@@ -145,10 +145,10 @@ body{
 }
 
 
-/*PRODUCTS*/
+/*APPLICATIONS*/
 #yard{
   margin: 0 auto;
-  border: 8px solid white;
+  border: 2px solid white;
   width: 70%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
@@ -165,15 +165,58 @@ body{
   font-size: 20px;
 }
 
-.visit{
+
+
+
+/*PODCAST*/
+#community{
+  margin: 0 auto;
+  border: 2px solid white;
+  width: 70%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: center;
+  color: white;
+}
+
+#community-heading {
+  font-size: 30px ;
+}
+
+.community-description{
   font-size: 20px;
 }
 
 
-/*SUBSCRIPTION*/
-#subscribe-container{
+/*COMMUNITY*/
+#podcast{
   margin: 0 auto;
-  border: 8px solid white;
+  border: 2px solid white;
+  width: 70%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: center;
+  color: white;
+}
+
+#podcast-heading {
+  font-size: 30px ;
+}
+
+.podcast-description{
+  font-size: 20px;
+}
+
+.visit{
+  font-size: 20px;
+}
+
+/*SUPPORT US*/
+#support-container{
+  margin: 0 auto;
+  border: 2px solid white;
   width: 70%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
@@ -183,7 +226,15 @@ body{
   font-size: 30px;
 }
 
-#subscribe-container a{
+#support-heading {
+  font-size: 30px ;
+}
+
+.support-description{
+  font-size: 20px;
+}
+
+.support-description a{
   color: white;
 }
 
