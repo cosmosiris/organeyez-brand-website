@@ -106,24 +106,42 @@ body{
 
 
 /*FOUNDER PAGE*/
-#about_founder{
+#team-bio-box{
   margin: 0 auto;
   border: 8px solid white;
-  width: 60%;
+  width: 80%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-#about_founder p{
-  font-size: 16px;
+.team-member-box{
+  border: 0.5px solid white;
+  margin: 10px;
+  padding: 10px 5px;
+  width: 300px;
+  box-shadow: -4px -4px white;
+  border-radius: 10px;
 }
 
-#founder_pic{
-  width: 30%;
+.team-member-box p{
+  font-size: 12px;
+}
+
+.team-member-pic{
+  max-width: 50%;
   margin-bottom: 2%;
+}
+
+.title, .name{
+  font-weight: bold;
 }
 
 
