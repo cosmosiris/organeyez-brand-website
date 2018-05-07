@@ -57,6 +57,18 @@ body{
 }
 
 
+/*ABOUT PAGE*/
+#about{
+  margin: 0 auto;
+  border: 8px solid white;
+  width: 60%;
+  box-shadow: -8px -8px white;
+  border-radius: 10px;
+  padding: 4%;
+  text-align: left;
+  color: white;
+}
+
 /*FOOTER*/
 
 .footer{
