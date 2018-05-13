@@ -1,8 +1,9 @@
-body{
+  body{
   background: #ff5f6d; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-}
+  min-width: 100vh;
+} 
 
 /*NAVBAR*/
 
@@ -32,15 +33,15 @@ body{
 /*INDEX PAGE*/
 
 #index{
-  /*height: 400px;*/
   margin: 0 auto;
   border: 8px solid white;
-  width: 70%;
+  max-width: 70%;
   box-shadow: -8px -8px white;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
   color: white;
+  display: block;
 }
 
 .index-header{
@@ -72,25 +73,24 @@ body{
 /*FOOTER*/
 
 .footer{
-  height: 200px;
-  width: 100%;
   background-color: white;
-  position: absolute;
-  bottom: 100;
-  margin-top: 10%;
   font-family: 'Merienda', cursive;
   font-weight: bold;
   color: #ff3333;
   font-size: 20px;
+  bottom: 0;
+  position: scroll;
+  width: 100%;
+  padding: 1% 2%;
+  margin-top: 10%;
 }
 
-
-#contact-info{
+.contact-info{
   margin-left: 10%;
   margin-top: 2%;
 }
 
-#designed-by{
+.designed-by{
   text-align: center;
 }
 
