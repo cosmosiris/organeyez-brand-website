@@ -213,8 +213,8 @@
   font-size: 20px;
 }
 
-/*SUPPORT US*/
-#support-container{
+/*SUPPORT US && OPENINGS*/
+#support-container, #openings-container{
   margin: 0 auto;
   border: 2px solid white;
   width: 70%;
@@ -226,16 +226,20 @@
   font-size: 30px;
 }
 
-#support-heading {
+#support-heading, #openings-heading {
   font-size: 30px ;
 }
 
-.support-description{
+.support-description, .openings-description, #openings-list{
   font-size: 20px;
 }
 
 .support-description a{
   color: white;
+}
+
+#openings-list, .openings-description{
+  text-align: left;
 }
 
 
