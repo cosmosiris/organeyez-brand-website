@@ -50,7 +50,7 @@
 
 #index li{
   list-style: none;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #intended-users{
@@ -68,6 +68,7 @@
   padding: 4%;
   text-align: left;
   color: white;
+  font-size: 20px;
 }
 
 /*FOOTER*/
