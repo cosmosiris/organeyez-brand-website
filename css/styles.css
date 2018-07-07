@@ -60,9 +60,10 @@ body{
 
 #index{
   margin: 0 auto;
-  border: 1px solid black;
+  background: #ff6633;
+  border: 1px solid #595959;
   max-width: 70%;
-  box-shadow: -4px -4px black;
+  box-shadow: -4px -4px #595959;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
@@ -71,7 +72,7 @@ body{
 }
 
 .index-header{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #index li{
@@ -85,22 +86,35 @@ body{
 
 
 /*ABOUT PAGE*/
-#about{
-  margin: 0 auto;
-  border: 2px solid black;
+.about{
+  margin: 40px auto;
+  border: 1px solid #595959;
   width: 60%;
-  box-shadow: -8px -8px black;
+  box-shadow: -4px -4px #595959;
   border-radius: 10px;
   padding: 4%;
-  text-align: left;
+  text-align: center;
   color: black;
   font-size: 20px;
+}
+
+#org-structure{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bullet-div{
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /*FOOTER*/
 
 .footer{
-  background-color: #b3b3b3;
+  background-color: #595959;
   font-family: 'Merienda', cursive;
   font-weight: bold;
   /*color: #ff3333;*/
