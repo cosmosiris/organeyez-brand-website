@@ -60,14 +60,14 @@ body{
 
 #index{
   margin: 0 auto;
-  background: #ff6633;
+  background: #a6a6a6;
   border: 1px solid #595959;
   max-width: 70%;
   box-shadow: -4px -4px #595959;
   border-radius: 10px;
-  padding: 4%;
+  padding: 2%;
   text-align: center;
-  color: black;
+  color: white;
   display: block;
 }
 
@@ -87,22 +87,26 @@ body{
 
 /*ABOUT PAGE*/
 .about{
-  margin: 40px auto;
+  margin: 100px auto;
   border: 1px solid #595959;
   width: 60%;
   box-shadow: -4px -4px #595959;
   border-radius: 10px;
-  padding: 4%;
+  padding: 2%;
   text-align: center;
   color: black;
   font-size: 20px;
 }
 
-#org-structure{
+#three-pillars{
+  text-align: left;
+}
+
+#org-structure, #three-pillars-img{
   width: 100%;
   max-width: 500px;
   height: auto;
-  margin: 0 auto;
+  margin: 4px auto;
 }
 
 .bullet-div{
