@@ -1,9 +1,26 @@
-  body{
-  background: #ff5f6d; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  min-width: 100vh;
+body{
+  /*min-width: 100vh;*/
 } 
+
+/*LANDING*/
+#landing{
+  /*background-image: url("../images/landing-page-background-2.jpg");*/
+}
+
+#landing-container{
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+}
+
+#landing-text{
+  width: 50%;
+}
 
 /*NAVBAR*/
 
