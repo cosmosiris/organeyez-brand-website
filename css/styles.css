@@ -31,33 +31,42 @@ body{
   padding-top: 5%;
 }
 
-#logo{
-  color: white;
-  font-size: 40px;
-  font-family: 'Sedgwick Ave Display', cursive;
-  letter-spacing: 2px;
+#navbar-header{
+  /*border: 2px solid black;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-1{
+  height: 100px;
+}
+
+#logo-2{
+  height: 50px;
 }
 
 .nav a{
-  color: white;
+  color: black;
   font-size: 20px;
 } 
 
 .active{
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 /*INDEX PAGE*/
 
 #index{
   margin: 0 auto;
-  border: 8px solid white;
+  border: 1px solid black;
   max-width: 70%;
-  box-shadow: -8px -8px white;
+  box-shadow: -4px -4px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
   display: block;
 }
 
@@ -78,23 +87,24 @@ body{
 /*ABOUT PAGE*/
 #about{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 60%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: left;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
 /*FOOTER*/
 
 .footer{
-  background-color: white;
+  background-color: #b3b3b3;
   font-family: 'Merienda', cursive;
   font-weight: bold;
-  color: #ff3333;
+  /*color: #ff3333;*/
+  color: white;
   font-size: 20px;
   bottom: 0;
   position: scroll;
@@ -126,13 +136,13 @@ body{
 /*TEAM PAGE*/
 #team-bio-box{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 80%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -141,11 +151,11 @@ body{
 }
 
 .team-member-box{
-  border: 0.5px solid white;
+  border: 0.5px solid black;
   margin: 10px;
   padding: 10px 5px;
   width: 300px;
-  box-shadow: -4px -4px white;
+  box-shadow: -4px -4px black;
   border-radius: 10px;
 }
 
@@ -166,13 +176,13 @@ body{
 /*APPLICATIONS*/
 #yard{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 70%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 #yard-heading {
@@ -189,13 +199,13 @@ body{
 /*PODCAST*/
 #community{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 70%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 #community-heading {
@@ -210,13 +220,13 @@ body{
 /*COMMUNITY*/
 #podcast{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 70%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 #podcast-heading {
@@ -234,13 +244,13 @@ body{
 /*SUPPORT US && OPENINGS*/
 #support-container, #openings-container{
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 70%;
-  box-shadow: -8px -8px white;
+  box-shadow: -8px -8px black;
   border-radius: 10px;
   padding: 4%;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 
@@ -253,7 +263,7 @@ body{
 }
 
 .support-description a{
-  color: white;
+  color: black;
 }
 
 #openings-list, .openings-description{
