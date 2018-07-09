@@ -1,25 +1,39 @@
 body{
-  /*min-width: 100vh;*/
+  height: 100%;
+  margin: 0;
+  display: block;
 } 
 
 /*LANDING*/
-#landing{
-  /*background-image: url("../images/landing-page-background-2.jpg");*/
-}
-
 #landing-container{
-  border: 2px solid black;
-  margin: 0 auto;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
+  background-image: url("../images/organeyez-full-landing-page.jpg");
+  background-size: cover;
   position: absolute;
-  top: 25%;
+  margin: 0 auto;
+  display: block;
+  top: 0;
+  width: 100%;
+  min-width: 980px;
+  min-height: 100%;
+  padding-top: 40%
 }
 
-#landing-text{
-  width: 50%;
+#landing-button{
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  font-family: 'Merienda', cursive;
+  border: 2px solid white;
+  background-color: #e34840;
+  position: absolute;
+  left: 42%;
+  top: 75%;
+  width: 20%;
+  min-width: 120px;
+  height: 8%;
+  min-height: 50px;
+}
+
+#landing-button a{
+  color: white;
 }
 
 /*NAVBAR*/
