@@ -2,7 +2,11 @@ body{
   height: 100%;
   margin: 0;
   display: block;
-} 
+}
+
+.blue-text{
+  color: #000080;
+}
 
 /*LANDING*/
 #landing-container{
@@ -67,7 +71,7 @@ body{
 } 
 
 .active{
-  border: 1px solid black;
+  border: 1px solid #e6e6e6;
   background-color: #e6e6e6;
 }
 
@@ -81,7 +85,6 @@ body{
   margin: 0 auto;
   max-width: 70%;
   padding-top: 10%;
-  padding-bottom: 10%;
   text-align: center;
   display: block;
 }
@@ -98,7 +101,6 @@ body{
 #intended-users{
   padding-right: 6%;
 }
-
 
 .about{
   margin: 100px auto;
@@ -140,11 +142,11 @@ body{
 /*FOOTER*/
 
 .footer{
-  background-color: #595959;
+  background-color: #f2f2f2;
   font-family: 'Merienda', cursive;
   font-weight: bold;
   /*color: #ff3333;*/
-  color: white;
+  color: black;
   font-size: 20px;
   bottom: 0;
   position: scroll;
@@ -187,12 +189,12 @@ body{
 }
 
 .team-member-box{
-  border: 0.5px solid grey;
   margin: 10px;
   padding: 10px 5px;
   width: 300px;
-  box-shadow: -4px -4px #e34840;
-  border-radius: 10px;
+  /*box-shadow: -4px -4px #e34840;*/
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
 .team-member-box p{
@@ -208,14 +210,18 @@ body{
   font-weight: bold;
 }
 
+.name{
+  color: #000080;
+  font-size: 16px !important;
+}
+
 
 /*APPLICATIONS*/
 #yard{
   margin: 0 auto;
-  border: 2px solid grey;
   width: 70%;
-  box-shadow: -8px -8px #e34840;
-  border-radius: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
   padding: 4%;
   text-align: center;
 }
@@ -296,6 +302,11 @@ body{
 
 .openings-list, .openings-description{
   text-align: left;
+}
+
+#openings-intro{
+  background-color: #f2f2f2;
+  padding: 2%;
 }
 
 
