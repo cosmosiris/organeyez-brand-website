@@ -236,7 +236,7 @@ body{
 
 
 
-/*PODCAST*/
+/*COMMUNITY*/
 #community{
   margin: 0 auto;
   border: 2px solid black;
@@ -257,7 +257,7 @@ body{
 }
 
 
-/*COMMUNITY*/
+/*PODCAST*/
 #podcast{
   margin: 0 auto;
   border: 2px solid black;
@@ -279,6 +279,13 @@ body{
 
 .visit{
   font-size: 20px;
+}
+
+#types-of-activists-img{
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 4px auto;
 }
 
 /*SUPPORT US && OPENINGS*/
