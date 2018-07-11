@@ -1,11 +1,11 @@
 body{
-  height: 100%;
+  height: 100vh;
   margin: 0;
   display: block;
 }
 
 .blue-text{
-  color: #000080;
+  color: #264653;
 }
 
 /*LANDING*/
@@ -211,7 +211,7 @@ body{
 }
 
 .name{
-  color: #000080;
+  color: #264653;
   font-size: 16px !important;
 }
 
