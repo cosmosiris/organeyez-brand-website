@@ -311,6 +311,23 @@ body{
   padding: 2%;
 }
 
+/*RESOURCES*/
+.resources{
+  margin: 0 auto;
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 4%;
+}
 
+.resources-heading {
+  font-size: 30px ;
+  text-align: center;
+}
+
+.resource {
+  list-style: none;
+  font-size: 18px;
+}
 
 
