@@ -330,4 +330,8 @@ body{
   font-size: 18px;
 }
 
+.resource li {
+  line-height: 2em;
+}
+
 
