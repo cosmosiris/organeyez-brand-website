@@ -120,6 +120,11 @@ body{
   text-align: left;
 }
 
+#three-pillars li {
+  list-style: none;
+  margin-top: 15px;
+}
+
 #org-structure-img, #three-pillars-img, #financial-structure{
   width: 100%;
   max-width: 700px;
@@ -291,8 +296,25 @@ body{
   font-size: 30px;
 }
 
+#support-container h3 {
+  margin-bottom: 30px;
+}
+
+#support-container .mc-field-group, .clear {
+  text-align: right;
+}
+
+#mc_embed_signup_scroll {
+  margin: 0 auto;
+  width: 280px;
+}
+
 #support-heading, #openings-heading {
   font-size: 30px ;
+}
+
+.support-highlight {
+  color: red;
 }
 
 .support-description, .openings-description, .openings-list{
@@ -311,6 +333,27 @@ body{
   padding: 2%;
 }
 
+/*RESOURCES*/
+.resources{
+  margin: 0 auto;
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 4%;
+}
 
+.resources-heading {
+  font-size: 30px ;
+  text-align: center;
+}
+
+.resource {
+  list-style: none;
+  font-size: 18px;
+}
+
+.resource li {
+  line-height: 2em;
+}
 
 
