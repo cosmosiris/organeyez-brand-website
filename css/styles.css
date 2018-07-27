@@ -120,6 +120,11 @@ body{
   text-align: left;
 }
 
+#three-pillars li {
+  list-style: none;
+  margin-top: 15px;
+}
+
 #org-structure-img, #three-pillars-img, #financial-structure{
   width: 100%;
   max-width: 700px;
@@ -291,8 +296,25 @@ body{
   font-size: 30px;
 }
 
+#support-container h3 {
+  margin-bottom: 30px;
+}
+
+#support-container .mc-field-group, .clear {
+  text-align: right;
+}
+
+#mc_embed_signup_scroll {
+  margin: 0 auto;
+  width: 280px;
+}
+
 #support-heading, #openings-heading {
   font-size: 30px ;
+}
+
+.support-highlight {
+  color: red;
 }
 
 .support-description, .openings-description, .openings-list{
