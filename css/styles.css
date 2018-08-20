@@ -4,8 +4,12 @@ body{
   display: block;
 }
 
-.blue-text{
+.blue-text {
   color: #264653;
+}
+
+.red-text {
+  color: red;
 }
 
 /*LANDING*/
@@ -81,12 +85,17 @@ body{
 
 /*INDEX PAGE*/
 
-#index{
+#index-text{
   margin: 0 auto;
   max-width: 70%;
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
-  display: block;
+}
+
+#index-video {
+  margin: 0 auto;
+  padding-top: 5%;
+  text-align: center;
 }
 
 .index-header{
