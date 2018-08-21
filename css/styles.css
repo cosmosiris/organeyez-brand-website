@@ -4,8 +4,12 @@ body{
   display: block;
 }
 
-.blue-text{
+.blue-text {
   color: #264653;
+}
+
+.red-text {
+  color: red;
 }
 
 /*LANDING*/
@@ -81,12 +85,17 @@ body{
 
 /*INDEX PAGE*/
 
-#index{
+#index-text{
   margin: 0 auto;
   max-width: 70%;
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
-  display: block;
+}
+
+#index-video {
+  margin: 0 auto;
+  padding-top: 5%;
+  text-align: center;
 }
 
 .index-header{
@@ -287,13 +296,25 @@ body{
   margin: 4px auto;
 }
 
-/*SUPPORT US && OPENINGS*/
-#support-container, #openings-container{
+/*SUPPORT US && JOIN-US*/
+#openings-container{
   margin: 0 auto;
   width: 70%;
   padding: 4%;
   text-align: center;
   font-size: 30px;
+}
+
+#support-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #support-container h3 {
@@ -302,6 +323,14 @@ body{
 
 #support-container .mc-field-group, .clear {
   text-align: right;
+}
+
+.support-step-box{
+  margin: 0% 2.5% 2.5% 5%;
+  padding: 5% 5%;
+  /*box-shadow: -4px -4px #e34840;*/
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
 #mc_embed_signup_scroll {
@@ -315,6 +344,9 @@ body{
 
 .support-highlight {
   color: red;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
 }
 
 .support-description, .openings-description, .openings-list{
