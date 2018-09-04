@@ -379,22 +379,32 @@ body{
   margin: 0 auto;
   width: 70%;
   padding: 4%;
-  text-align: left;
-  font-size: 30px;
-}
-
-.openings-intro{
   background-color: #f2f2f2;
-  padding: 2%;
 }
 
-.openings-heading {
+.openings-header {
   font-size: 30px;
+  text-align: center;
 }
 
-.openings-list, .openings-description{
+.openings-sub-header {
+  text-align: center;
+  font-size: 20px;
+}
+
+.openings-team-ctn {
+  margin-bottom: 5%;
+}
+
+.openings-description {
   text-align: left;
   font-size: 20px;
+}
+
+.openings-list{
+  text-align: left;
+  font-size: 20px;
+  list-style: none;
 }
 
 /*POSITIONS*/
