@@ -84,6 +84,28 @@ body{
 }
 
 /*INDEX PAGE*/
+#survey-text {
+  margin: 0 auto;
+  padding: 2%;
+  max-width: 70%;
+  text-align: center;
+  background-color: #e34840;
+  color: white;
+}
+
+#survey-text a {
+  color: black;
+}
+
+#survey-title {
+  font-size: 25px;
+  color: white;
+}
+
+#survey-title-2 {
+  font-size: 25px;
+  color: #264653;
+}
 
 #index-text{
   margin: 0 auto;
@@ -444,6 +466,24 @@ body{
 }
 
 
+/*MISC*/
+#activist-needs-survey {
+  margin: 0 auto;
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 4%;
+  text-align: center;
+}
+
+#roots-logo {
+  width: 25%;
+}
+
+#embedded-survey {
+  margin: 0 auto;
+  width: 70%;
+}
 
 
 
