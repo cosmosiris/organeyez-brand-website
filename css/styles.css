@@ -84,7 +84,7 @@ body{
 }
 
 /*INDEX PAGE*/
-#survey-text {
+.survey-text {
   margin: 0 auto;
   padding: 2%;
   max-width: 70%;
@@ -93,11 +93,11 @@ body{
   color: white;
 }
 
-#survey-text a {
+.survey-text a {
   color: black;
 }
 
-#survey-title {
+.survey-title {
   font-size: 25px;
   color: white;
 }
