@@ -12,6 +12,10 @@ body{
   color: red;
 }
 
+.left-align {
+  text-align: left;
+}
+
 /*LANDING*/
 #landing-container{
   background-image: url("../images/organeyez-full-landing-page.jpg");
@@ -377,6 +381,58 @@ body{
 .support-description a{
 }
 
+/*PROJECTS*/
+
+.projects-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.projects-container h3 {
+  margin-bottom: 30px;
+}
+
+.projects-container .mc-field-group, .clear {
+  text-align: right;
+}
+
+.project-detail-box{
+  margin: 0% 2.5% 2.5% 5%;
+  padding: 5% 5%;
+  /*box-shadow: -4px -4px #e34840;*/
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+#mc_embed_signup_scroll {
+  margin: 0 auto;
+  width: 280px;
+}
+
+#project-heading {
+  font-size: 30px;
+}
+
+.project-highlight {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.project-description{
+  font-size: 20px;
+}
+
+.project-description a{
+}
 
 /*RESOURCES*/
 .resources{
