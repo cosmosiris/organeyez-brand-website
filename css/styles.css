@@ -2,6 +2,7 @@ body{
   height: 100vh;
   margin: 0;
   display: block;
+  font-family: 'Lora', serif;
 }
 
 .blue-text {
@@ -10,6 +11,18 @@ body{
 
 .red-text {
   color: red;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.h3 {
+  font-size: 30px;
+}
+
+.top-margin-10 {
+  margin-top: 10% ;
 }
 
 /*LANDING*/
@@ -28,7 +41,7 @@ body{
 
 #landing-button{
   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  font-family: 'Merienda', cursive;
+  font-family: 'Merienda', cursive !important;
   border: 2px solid white;
   background-color: #e34840;
   position: absolute;
@@ -187,7 +200,7 @@ body{
 
 .footer{
   background-color: #f2f2f2;
-  font-family: 'Merienda', cursive;
+  font-family: 'Merienda', cursive !important;
   font-weight: bold;
   /*color: #ff3333;*/
   color: black;
@@ -317,11 +330,64 @@ body{
   font-size: 20px;
 }
 
+.subscription-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.subscription-icon{
+  max-width: 50%;
+  max-height: 10px;
+  margin: 5%;
+}
+
 #types-of-activists-img{
   width: 100%;
   max-width: 800px;
   height: auto;
   margin: 4px auto;
+}
+
+#podcast-episodes-box{
+  margin: 0 auto;
+  width: 80%;
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.podcast-guest-box{
+  margin: 10px;
+  padding: 10px 5px;
+  width: 300px;
+  /*box-shadow: -4px -4px #e34840;*/
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.podcast-guest-box p{
+  font-size: 12px;
+}
+
+.podcast-guest-pic{
+  max-height: 5%;
+  max-width: 50%;
+  margin-bottom: 2%;
+}
+
+.episode-title, .guest-name{
+  font-weight: bold;
+}
+
+.guest-name{
+  color: #264653;
+  font-size: 16px !important;
 }
 
 /*SUPPORT US */
@@ -377,6 +443,58 @@ body{
 .support-description a{
 }
 
+/*PROJECTS*/
+
+.projects-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.projects-container h3 {
+  margin-bottom: 30px;
+}
+
+.projects-container .mc-field-group, .clear {
+  text-align: right;
+}
+
+.project-detail-box{
+  margin: 0% 2.5% 2.5% 5%;
+  padding: 5% 5%;
+  /*box-shadow: -4px -4px #e34840;*/
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+#mc_embed_signup_scroll {
+  margin: 0 auto;
+  width: 280px;
+}
+
+#project-heading {
+  font-size: 30px;
+}
+
+.project-highlight {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.project-description{
+  font-size: 20px;
+}
+
+.project-description a{
+}
 
 /*RESOURCES*/
 .resources{
@@ -490,6 +608,3 @@ body{
   margin: 0 auto;
   width: 70%;
 }
-
-
-
