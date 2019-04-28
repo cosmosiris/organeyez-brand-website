@@ -297,17 +297,8 @@ body{
 
 
 
-/*COMMUNITY*/
-#community{
-  margin: 0 auto;
-  width: 70%;
-  padding: 4%;
-  text-align: center;
-}
-
-
-/*PODCAST && WORKSHOPS*/
-.podcast, .workshops{
+/*PODCAST && WORKSHOPS && COMMUNITY*/
+.podcast, .workshops, .community{
   margin: 0 auto;
   width: 70%;
   padding: 4%;
