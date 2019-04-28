@@ -25,6 +25,14 @@ body{
   margin-top: 10% ;
 }
 
+.page-heading {
+  font-size: 30px ;
+}
+
+.page-description{
+  font-size: 20px;
+}
+
 /*LANDING*/
 #landing-container{
   background-image: url("../images/organeyez-full-landing-page.jpg");
@@ -283,10 +291,6 @@ body{
   text-align: center;
 }
 
-#yard-heading {
-  font-size: 30px ;
-}
-
 .yard-description{
   font-size: 20px;
 }
@@ -301,29 +305,13 @@ body{
   text-align: center;
 }
 
-#community-heading {
-  font-size: 30px ;
-}
 
-.community-description{
-  font-size: 20px;
-}
-
-
-/*PODCAST*/
-#podcast{
+/*PODCAST && WORKSHOPS*/
+.podcast, .workshops{
   margin: 0 auto;
   width: 70%;
   padding: 4%;
   text-align: center;
-}
-
-#podcast-heading {
-  font-size: 30px ;
-}
-
-.podcast-description{
-  font-size: 20px;
 }
 
 .visit{
@@ -349,7 +337,7 @@ body{
   margin: 4px auto;
 }
 
-#podcast-episodes-box{
+.podcast-episodes-box, .workshops-list-box{
   margin: 0 auto;
   width: 80%;
   padding: 4%;
@@ -361,7 +349,7 @@ body{
   align-items: flex-start;
 }
 
-.podcast-guest-box{
+.podcast-guest-box, .workshop-box{
   margin: 10px;
   padding: 10px 5px;
   width: 300px;
@@ -374,13 +362,13 @@ body{
   font-size: 12px;
 }
 
-.podcast-guest-pic{
+.podcast-guest-pic, .workshop-pic{
   max-height: 5%;
   max-width: 50%;
   margin-bottom: 2%;
 }
 
-.episode-title, .guest-name{
+.episode-title, .guest-name, .workshop-title{
   font-weight: bold;
 }
 
