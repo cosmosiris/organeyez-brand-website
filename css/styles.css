@@ -134,14 +134,14 @@ body{
 }
 
 /*INDEX PAGE*/
-#index-text{
+.index-text, .index-image{
   margin: 0 auto;
   max-width: 70%;
   padding-top: 5%;
   text-align: center;
 }
 
-#index-video {
+.index-video {
   margin: 0 auto;
   padding-top: 5%;
   text-align: center;
